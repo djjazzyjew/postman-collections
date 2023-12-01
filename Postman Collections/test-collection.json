@@ -4,5 +4,19 @@
 		"name": "Test GH Integration",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "First Request",
+			"id": "efc415c1-e3ea-43d3-83b4-eb1e873c5b93",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/acme"
+			},
+			"response": []
+		}
+	]
 }
